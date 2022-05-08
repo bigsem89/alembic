@@ -95,7 +95,7 @@ encoding: utf-8 # Make sure the encoding is right
 lang: ru-Ru # Set the site language
 title: "Alembic" # Site name or title, also used in jekyll-seo-tag
 logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
-description: "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately" # Site description and default description, also used in jekyll-seo-tag
+description: "Описание" # Site description and default description, also used in jekyll-seo-tag
 url: "https://bigsem89.github.io" # Site url, also used in jekyll-seo-tag
 baseurl: "/alembic/"
 repo: "alembic"
@@ -121,18 +121,16 @@ favicons: # Favicons are also used in the manifest file. Syntax is 'size: path'
 
 # 9. Site navigation
 navigation_header:
-- title: Home
+- title: Главная
   url: /
-- title: Elements
-  url: /elements/
-- title: Blog
+# - title: Elements
+#   url: /elements/
+- title: Новости
   url: /blog/
 - title: Categories
   url: /categories/
 - title: Search
   url: /search/
-- title: Fork Alembic
-  url: https://github.com/daviddarnes/alembic
 
 navigation_footer:
 - title: Created by Semyon Aronov
